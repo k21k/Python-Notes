@@ -1,0 +1,11 @@
+Your job is to:
+1- Write a Python script, which will concatinate/combine all the .csv files into a single pandas data frame.
+2- Encode Male for 1, female for 2. [Gender column]
+3- Encode 1,2 for Location 1, Location 2, or Facility A, Facility B [Location column]
+4- Encode 1,2,3,4 for Antenna column as well.
+5- Look for missing values, deal with missing values if any.
+6- Look for duplicates and drop them
+7- Name the columns as -> ['id', 'gender', 'location', 'person', 'time', 'g_frontal', 'g_vertical', 'g_lateral', 'antenna', 'rssi', 'phase', 'label']
+
+
+Note: Keep in mind that you don't have to load every file in a dataframe and then concatinate, figure out a way to do it without loading every file in a dataframe
