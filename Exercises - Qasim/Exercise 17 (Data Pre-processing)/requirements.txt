@@ -1,0 +1,27 @@
+Given the dataset, your job is to perform the following tasks:
+
+1- Look for missing values and drop the rows
+2- Look for duplicates
+3- Analyze the data
+4- Considering 'RPI_log' as the dependent variable, split the dataset into X_train, X_test, y_train, y_test
+
+Bonus:
+5- perform feature selection by 'Implementing Forward selection' using built-in functions in Python
+
+Select 50 best features:
+Required Libraries for feature selection:
+
+from mlxtend.feature_selection import SequentialFeatureSelector as SFS
+from sklearn.linear_model import LinearRegression
+
+Parameter Settings:
+       (
+	   LinearRegression(),
+           k_features= [Set as per requirement],
+           forward=True,
+           floating=False,
+           scoring = 'r2',
+           cv = 0
+                  )
+
+Note: Make sure you retain the column names after selection
